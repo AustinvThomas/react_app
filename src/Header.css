@@ -13,7 +13,9 @@
   padding-left: 2vw;
   padding-right: 2vw;
 }
-
+#menubar{
+  display:none;
+  }
 #menubar:hover{
   left:0;
   background-color: white;
