@@ -10,7 +10,7 @@ export default function Header() {
   
 
     window.onload = ()=>{
-        if(window.innerWidth<600){
+        if(window.innerWidth<1440){
         document.getElementById('advanced').innerHTML='BASIC';
     }
 }
@@ -18,7 +18,7 @@ export default function Header() {
     const changeColor = () => {
         toggle = !toggle;
         const advanced = document.getElementById('advanced');
-        if(window.innerWidth>=600){
+        if(window.innerWidth>=1440){
             const basic = document.getElementById('basic');
             if(toggle){
                 basic.style='color: #686868';
