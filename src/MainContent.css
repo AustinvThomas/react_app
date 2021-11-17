@@ -56,4 +56,15 @@
 .input_align{
     display: table-row;
 }
+@media (max-width: 1440px){
+    .body_tittle{
+        font-size: 25px;
+    }
+    .SelectOption{
+        
+        width: 150px;
+        
+    }
+}
+
 
